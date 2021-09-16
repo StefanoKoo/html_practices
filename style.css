@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color:white;
+    width:310px;
+    border: solid black 3px;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.titlebar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 20px 5px 5px 5px;
+}
+
+.titlebar__column {
+    width: 33%;
+}
+
+.titlebar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.titlebar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section {
+    padding: 0px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(yellow 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.search__input-text {
+    height: 30px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0px 3px 2px grey;
+}
+
+.search__input-text::placeholder {
+    opacity: 0.5;
+}
+
+.search__input i{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    opacity: 0.2;
+}
+
+.book-of-the-day__body {
+    display: flex;
+}
+
+.book-of-the-day__title {
+    margin-bottom: 10px;
+}
+
+.book-of-the-day__body-title {
+    margin-bottom: 5px;
+}
+
+.book-of-the-day__body-img {
+    width: 80px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.book-of-the-day__body-author {
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.book-of-the-day__body-stars {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.book-of-the-day__body-genre {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.book-of-the-day__body-genre-spec {
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 5px;
+    margin: 2px;
+}
+
+.book-of-the-day__body-book {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-of-the-day__body-bookmark {
+    border-radius: 50%;
+}
+
+.book-of-the-day__body-bookmark-now {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.top-adventures__title {
+    margin-bottom: 10px;
+}
+
+.top-adventures__list {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.top-adventures__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-adventures__item-img {
+    width: 60px;
+    height: 90px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.top-adventures__item-stars {
+    font-size: 1px;
+}
